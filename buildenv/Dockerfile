@@ -8,4 +8,4 @@ RUN apt-get install -y nasm xorriso
 VOLUME /root/env
 WORKDIR /root/env
 
-# >>> docker run --rm -it -v "$pwd":/root/env myos-buildenv
+# >>> docker run --rm -it -v $(pwd):/root/env myos-buildenv
